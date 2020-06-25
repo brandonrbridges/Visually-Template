@@ -58,7 +58,7 @@ function load_resources() {
   wp_enqueue_script( 'popper', get_stylesheet_directory_uri() . '/assets/js/popper.min.js', array(), null, true );
 
   /* AOS */
-  wp_enqueue_script( 'aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js', array(), null, true );
+  wp_enqueue_script( 'aos', get_stylesheet_directory_uri() . '/assets/js/aos.js', array(), null, true );
 
   /* Slick */
   // wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', null, true);
