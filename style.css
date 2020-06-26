@@ -3,12 +3,12 @@ Theme Name: Visually Digital
 Theme URI: https://visually.digital
 Author: Visually Digital
 Author URI: https://visually.digital
-Description: Built by Visually Digital
-Version: 1.0
+Description: This theme is built for the purpose to serve. With barebones functions and minimalistic styling, it's everything you need to get started.
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: visually-digital
-Tags:
+Tags: Visually Digital, Bootstrap
 */
 
 :root {
@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bg-dark {
-  
+
 }
 
 .bg-light {
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .btn.btn-primary:focus {
-  
+
 }
 
 h1, .h1,
@@ -111,5 +111,5 @@ h6, .h6 {
 }
 
 .widget ul li a {
-  
+
 }
