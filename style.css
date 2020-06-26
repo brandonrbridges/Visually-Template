@@ -12,31 +12,48 @@ Tags: Visually Digital, Bootstrap
 */
 
 :root {
+  --primary: #3498db;
 
+  --danger: #e74c3c;
+  --dark: #2c3e50;
+  --light: #ecf0f1;
+  --muted: #ecf0f1;
+  --success: #2ecc71;
+
+  --transitionSpeed: .125s;
 }
 
 * {
-
+  font-family: sans-serif;
 }
 
 a {
-
+  color: inherit;
+  transition: all var(--transitionSpeed) ease;;
 }
 
 a:hover {
+  color: var(--primary);
+}
 
+.bg-danger {
+  background-color: var(--danger) !important;
 }
 
 .bg-dark {
-
+  background-color: var(--dark) !important;
 }
 
 .bg-light {
-
-}
+  background-color: var(--light) !important;
+} 
 
 .bg-primary {
+  background-color: var(--primary) !important;
+}
 
+.bg-success {
+  background-color: var(--success) !important;
 }
 
 .btn {
@@ -55,6 +72,12 @@ a:hover {
 
 }
 
+.footer .meta {
+  color: var(--muted) !important;
+  font-size: .8rem;
+  margin-bottom: 0;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -64,24 +87,33 @@ h6, .h6 {
 
 }
 
-.text-dark {
-
+.text-danger,
+.text-danger * {
+  color: var(--danger) !important;
 }
 
-.text-light {
+.text-dark,
+.text-dark * {
+  color: var(--dark) !important;
+}
 
+.text-light,
+.text-light * {
+  color: var(--light) !important;
 }
 
 .text-muted {
-
+  color: var(--muted) !important;
 }
 
-.text-primary {
-
+.text-primary,
+.text-primary * {
+  color: var(--primary) !important;
 }
 
-.text-success {
-
+.text-success,
+.text-success * {
+  color: var(--success) !important;
 }
 
 .widget {
@@ -92,8 +124,12 @@ h6, .h6 {
   margin-bottom: 0;
 }
 
-.widget .title {
+.widget * {
+  margin-bottom: 0;
+}
 
+.widget .title {
+  margin-bottom: 1.5rem;
 }
 
 .widget ul {

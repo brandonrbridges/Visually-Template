@@ -1,5 +1,5 @@
-  <div class="container-fluid bg-light">
-    <div class="container">
+<div class="container-fluid bg-light footer py-5">
+    <div class="container mb-5">
       <div class="row">
         <?php if ( is_active_sidebar( 'footer-one' ) ) : ?>
           <div class="col-md">
@@ -30,6 +30,16 @@
             <?php dynamic_sidebar( 'footer-five' ); ?>
           </div>
         <?php endif; ?>
+      </div>
+    </div>
+    <div class="container border-top pt-5">
+      <div class="row">
+        <div class="col-md d-none d-md-block">
+
+        </div>
+        <div class="col-md text-center text-md-right">
+          <p class="meta">&copy; <?php bloginfo( 'title' ); ?> <?php echo date('Y'); ?></p>
+        </div>
       </div>
     </div>
   </div>
