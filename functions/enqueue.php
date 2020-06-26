@@ -1,7 +1,9 @@
 <?php
 
 /**
- * Enqueued Styles and Scrips
+ * Enqueued Styles and Scripts
+ * 
+ * Path: /functions/enqueue.php
  * 
  * CSS:
  * - Bootstrap

@@ -10,3 +10,106 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: visually-digital
 Tags:
 */
+
+:root {
+
+}
+
+* {
+
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+.bg-dark {
+  
+}
+
+.bg-light {
+
+}
+
+.bg-primary {
+
+}
+
+.btn {
+
+}
+
+.btn.btn-primary {
+
+}
+
+.btn.btn-primary:hover {
+
+}
+
+.btn.btn-primary:focus {
+  
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+}
+
+.text-dark {
+
+}
+
+.text-light {
+
+}
+
+.text-muted {
+
+}
+
+.text-primary {
+
+}
+
+.text-success {
+
+}
+
+.widget {
+  margin-bottom: 1rem;
+}
+
+.widget:last-of-type {
+  margin-bottom: 0;
+}
+
+.widget .title {
+
+}
+
+.widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget ul li {
+  margin-bottom: .5rem;
+}
+
+.widget ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+.widget ul li a {
+  
+}
