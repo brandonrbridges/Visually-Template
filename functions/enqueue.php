@@ -50,9 +50,6 @@ function load_resources() {
   /**
    * Enqueued Scripts
    */
-  /* jQuery */
-  wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/assets/js/jquery.min.js', array(), null, true );
-
   /* Bootstrap */
   wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js', array(), null, true );
 
@@ -60,7 +57,7 @@ function load_resources() {
   wp_enqueue_script( 'popper', get_stylesheet_directory_uri() . '/assets/js/popper.min.js', array(), null, true );
 
   /* AOS */
-  wp_enqueue_script( 'aos', get_stylesheet_directory_uri() . '/assets/js/aos.js', array(), null, true );
+  // wp_enqueue_script( 'aos', get_stylesheet_directory_uri() . '/assets/js/aos.js', array(), null, true );
 
   /* Slick */
   // wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', null, true);
